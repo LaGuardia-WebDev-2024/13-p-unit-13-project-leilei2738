@@ -28,10 +28,10 @@ Select ONE Additional Feature to Add
       <label>
         🎥 What is my favorite movie?
         <select id="movie-answer">
-          <option value="movie1">movie 1</option>
-          <option value="movie2">movie 2</option>
-          <option value="movie3">movie 3</option>
-          <option value="movie4">movie 4</option>
+          <option value="movie1">Hunger games</option>
+          <option value="movie2">Catching Fire</option>
+          <option value="movie3">6 feet apart</option>
+          <option value="movie4">equalizer</option>
         </select>
       </label>
       <button type="submit">Check Movie Answer</button>
@@ -43,10 +43,10 @@ Select ONE Additional Feature to Add
       <label>
         📖 What is my favorite book?
         <select id="book-answer">
-          <option value="book1">book 1</option>
-          <option value="book2">book 2</option>
-          <option value="book3">book 3</option>
-          <option value="book4">book 4</option>
+          <option value="book1">A day of absence</option>
+          <option value="book2">For colored girls</option>
+          <option value="book3">A raisin in the sun</option>
+          <option value="book4">Flying Dutchman</option>
         </select>
       </label>
       <button type="submit">Check Book Answer</button>
@@ -81,7 +81,28 @@ Select ONE Additional Feature to Add
           $("#book-result").text("Try Again!");
         }
       });
+
+      $("img").hide();
+      $("img").slideDown(2000, function () {
+        $("h3").hide();
+        $("h3").fadeIn(3000);
+      });
     </script>
+    <img
+      src="https://cdn.glitch.global/2aa21d10-2cc2-4ed4-a41e-49d293664f5f/IMG_0397.jpeg?v=1749844975165"
+      width="300"
+      height="300"
+    />
+    <img
+      src="https://cdn.glitch.global/2aa21d10-2cc2-4ed4-a41e-49d293664f5f/IMG_0398.jpeg?v=1749844981467"
+      width="300"
+      height="300"
+    />
+    <img
+      src="https://cdn.glitch.global/2aa21d10-2cc2-4ed4-a41e-49d293664f5f/IMG_0400.jpeg?v=1749845501743"
+      width="300"
+      height="300"
+    />
   </body>
 
   <!--- Taken From Khan Academy HTML/JS: Making webpages interactive with jQuery-->
